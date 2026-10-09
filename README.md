@@ -63,6 +63,3 @@ src/
 └── main.jsx              # React entry point
 ```
 
-## Contact
-
-The contact links currently point to [hello@auralyn.com](mailto:hello@auralyn.com).
