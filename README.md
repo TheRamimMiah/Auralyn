@@ -1,16 +1,68 @@
-# React + Vite
+# Auralyn
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Auralyn is a responsive single-page studio website for an AI, technology, and digital-product brand. It presents the studio's products, technology, capabilities, selected work, process, and contact call to action through an animated, editorial-style interface.
 
-Currently, two official plugins are available:
+## Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive desktop and mobile navigation
+- Smooth anchor navigation between page sections
+- Motion-driven entrances, hover states, and floating interface elements
+- Sections for conversational AI, computer vision, AI automation, technology, capabilities, work, process, and contact
+- Tailwind CSS styling with a custom visual system, gradients, grain, and responsive layouts
 
-## React Compiler
+## Built with
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide](https://lucide.dev/) icons
 
-## Expanding the ESLint configuration
+## Getting started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js 20.19+ or 22.12+ (compatible with Vite 8)
+- npm
+
+### Install and run
+
+```bash
+npm install
+npm run dev
+```
+
+Vite will print the local development URL in the terminal (typically `http://localhost:5173`).
+
+## Available scripts
+
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Starts the Vite development server with hot module replacement. |
+| `npm run build` | Creates an optimized production build in `dist/`. |
+| `npm run preview` | Serves the production build locally. |
+| `npm run lint` | Runs ESLint across the project. |
+
+## Project structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx        # Responsive navigation and mobile menu
+│   ├── Hero.jsx          # Landing section and product showcase
+│   ├── Products.jsx      # AI product categories
+│   ├── Technology.jsx    # Technology overview and marquee
+│   ├── Capabilities.jsx  # Studio expertise
+│   ├── FeaturedWork.jsx  # Selected project presentations
+│   ├── Process.jsx       # Four-stage delivery process
+│   ├── About.jsx         # Studio introduction
+│   ├── CTA.jsx           # Contact call to action
+│   └── Footer.jsx        # Footer navigation and contact link
+├── App.jsx               # Page composition
+├── index.css             # Global styles and visual utilities
+└── main.jsx              # React entry point
+```
+
+## Contact
+
+The contact links currently point to [hello@auralyn.com](mailto:hello@auralyn.com).
